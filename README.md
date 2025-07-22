@@ -1,2 +1,13 @@
-# SPDV
-Spatial Proximity to Disease Variants
+# SPDV (Spatial Proximity to Disease Variants)
+
+A Google Colab notebook for easy calculation of the SPDV metrics outlined and benchmarked in "A knowledge-based distance metric highlights underperformance of variant effect predictors on spatially clustered human disease variants" by Lukas Gerasimavicius1* & Joseph A. Marsh1*.
+
+1MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, United Kingdom
+
+*lgerasim@ed.ac.uk ;*joseph.marsh@ed.ac.uk
+
+--------
+
+Abstract
+--------
+Most current variant effect predictors (VEPs) have been shown to be less effective at identifying non-loss-of-function (non-LOF) disease variants, which arise due to a gain of function (GOF) mechanism or manifest through the dominant-negative (DN) effect. Interestingly, disease mutation positions in non-LOF proteins have been shown to exhibit spatial clustering within protein structures. We have previously shown that [Extent of Disease Clustering (EDC)](https://colab.research.google.com/drive/11u6RuvZHZmyCXT8vavdrtFfW5rEbMEnG), a structure-derived gene-level metric, can be used to prioritize putative non-LOF genes. Analogously, we have demonstrated the utility of a structure-derived spatial distance metric at the position level, using [Spatial Proximity to Disease Variants (SPDV) to score the pathogenicity of RyR1 receptor variants](www.medrxiv.org/content/10.1101/2025.04.02.25325085v1.full). In this work, we scale the two structure-informed metrics – EDC & SPDV – across thousands of human proteins with known disease variants by leveraging AlphaFold 2 models. We show that EDC effectively separates LOF and non-LOF disease genes, particularly when low-confidence disordered regions are excluded. In comparison with 72 dedicated variant effect predictors (VEPs), SPDV exceeds or is at least as effective as half of the tested models at identifying dominant disease variants. Interestingly, when exploring mechanism-specific performance, SPDV is equivalent to the top methods for GOF-associated disease. We show that SPDV performance consistently improves with increasing target EDC values, and we identify an EDC threshold after which SPDV consistently surpasses all other predictors, despite their superior general performance. Although the knowledge-based nature of SPDV limits its widespread utility as a VEP, its use as an analytical metric enables the identification of a subset of putative GOF disease genes where current VEP methods underperform relative to SPDV, indicating they may be improved by incorporating spatial distance information.
