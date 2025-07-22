@@ -1,6 +1,6 @@
 # SPDV (Spatial Proximity to Disease Variants)
 
-A Google Colab notebook for easy calculation of the SPDV metrics outlined and benchmarked in "A knowledge-based distance metric highlights underperformance of variant effect predictors on spatially clustered human disease variants" by Lukas Gerasimavicius<sup>1</sup>* & Joseph A. Marsh<sup>1</sup>*.
+A [Google Colab notebook](https://github.com/lgeras/SPDV/blob/main/multiChain_SPDVs_CoM.ipynb) for easy calculation of the SPDV metrics outlined and benchmarked in "A knowledge-based distance metric highlights underperformance of variant effect predictors on spatially clustered human disease variants" by Lukas Gerasimavicius<sup>1</sup>* & Joseph A. Marsh<sup>1</sup>*.
 
 <sup>1</sup>MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, United Kingdom
 
